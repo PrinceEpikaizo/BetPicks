@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- bar 1 (shortest) -->
+    <path
+        android:pathData="M38,66 L46,66 A3,3 0 0 1 49,69 L49,80 A3,3 0 0 1 46,83 L38,83 A3,3 0 0 1 35,80 L35,69 A3,3 0 0 1 38,66 Z"
+        android:fillColor="#FFFFFF"/>
+    <!-- bar 2 (medium) -->
+    <path
+        android:pathData="M50,52 L58,52 A3,3 0 0 1 61,55 L61,80 A3,3 0 0 1 58,83 L50,83 A3,3 0 0 1 47,80 L47,55 A3,3 0 0 1 50,52 Z"
+        android:fillColor="#FFFFFF"/>
+    <!-- bar 3 (tallest) -->
+    <path
+        android:pathData="M62,38 L70,38 A3,3 0 0 1 73,41 L73,80 A3,3 0 0 1 70,83 L62,83 A3,3 0 0 1 59,80 L59,41 A3,3 0 0 1 62,38 Z"
+        android:fillColor="#FFFFFF"/>
+    <!-- accent dot above tallest bar -->
+    <path
+        android:pathData="M66,25 m-6.5,0 a6.5,6.5 0 1,0 13,0 a6.5,6.5 0 1,0 -13,0"
+        android:fillColor="#2EC4B6"/>
+</vector>

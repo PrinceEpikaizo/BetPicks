@@ -1,0 +1,6 @@
+#!/bin/sh
+
+APP_HOME=$( cd -P "$( dirname "$0" )" && pwd )
+APP_PATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
+
+exec java -Dorg.gradle.appname=gradlew -Xmx64m -Xms64m -classpath "$APP_PATH" org.gradle.wrapper.GradleWrapperMain "$@"
